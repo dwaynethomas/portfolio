@@ -141,6 +141,11 @@
 	#garden, #ninja, #mural, #multnomah{
 		display: none;
 	}
+
+	footer {
+		display: none;
+	}
+	
 	.footer-phone{
 		display: inline;
 	}
