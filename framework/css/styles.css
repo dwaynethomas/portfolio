@@ -3,7 +3,7 @@
 
 	h2, h3, .col-4, .col-9 {
 	font-family: 'Lato', sans-serif;
-	padding-right: 10;
+	padding-right: 10px;
 	}
 
 	h1 {
@@ -12,7 +12,7 @@
 	}
 
 	h3 {
-		padding-right: 10;
+		padding-right: 10px;
 
 	}
 
@@ -124,7 +124,7 @@
 	}
 }
 
-@media  screen and (min-width: 1px) and (max-width: 500px)
+@media  screen and (max-width: 500px)
 {
 	img {
 		display: none;
@@ -132,11 +132,6 @@
 
 	#header {
 		text-align: left;
-	}
-
-	.col-3 {
-		width: 200%;
-		text-align: center;
 	}
 
 	body {
