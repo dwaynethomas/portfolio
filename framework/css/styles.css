@@ -146,6 +146,10 @@
 		display: none;
 	}
 
+	img {
+		display: none;
+	}
+
 	.footer-phone {
 		display: inline;
 	}
