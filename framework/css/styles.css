@@ -130,6 +130,12 @@
 		width: 83.33%;
 		background-color: #33BEBE;
 	}
+
+	.row {
+		width: 100%;
+		margin-bottom: 20px;
+		display: flex;
+	}
 }
 
 @media  screen and (max-width: 500px)
