@@ -118,9 +118,6 @@
 
 @media  screen and (min-width: 501px) and (max-width: 799px)
 {
-	body {
-		background: #8D8D8D
-	}
 
 	.footer-tablet {
 		display: inline;
@@ -137,10 +134,6 @@
 {
 	#header {
 		text-align: left;
-	}
-
-	body {
-		background: white;
 	}
 
 	.col-3 {
