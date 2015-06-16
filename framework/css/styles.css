@@ -97,6 +97,10 @@
 		background: #FFFFCC;
 	}
 
+	img {
+		max-width: 100%;
+	}
+
 @media  screen and (min-width: 800px)
 {
 
@@ -118,17 +122,9 @@
 		background: #8D8D8D
 	}
 
-	footer {
-		display: none;
-	}
-
 	.footer-tablet {
 		display: inline;
 	}
-
-	img {
-		max-width: 100%;
-   }
 
 	.col-10 {
 		width: 83.33%;
@@ -147,10 +143,6 @@
 	}
 
 	#garden, #ninja, #mural, #multnomah {
-		display: none;
-	}
-
-	footer {
 		display: none;
 	}
 
