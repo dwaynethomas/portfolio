@@ -26,7 +26,12 @@
 				<p><a href=http://www.brainyquote.com/quotes/authors/b/bruce_lee.html#k6oreHSjzfgojucG.99,>Bruce Lee</a></p>
 			</div>
 			<div class="col-9">
-				<img src="img/japanese_garden_60q_50pc.jpg" alt="garden" id="jumbo_pic">
+				<picture>
+				 <source srcset="img/japanese_garden_60q_50pc.webp" media="(min-width: 500px)" alt="garden" id="small_pic">
+				     <source srcset="img/low_japanese_garden.jpg" media="(min-width: 799px)" alt="garden" id="medium_pic">
+							<img src="img/japanese_garden_60q_50pc.jpg" alt="garden" id="jumbo_pic">
+				</picture>
+
 				<p id="garden">GARDEN</p>
 			</div>
 		</div>
