@@ -2,7 +2,7 @@
 
 
 
-	h2, h3, .col-4, .col-9 {
+	h2, h3, .col-4, .col-9, .col-12 {
 	font-family: 'Lato', sans-serif;
 	padding-right: 10px;
 	}
@@ -46,7 +46,6 @@
 
 	.col-2 {
 		width: 16.66%;
-		background-color: #33BEBE;
 	}
 
 	.col-3 {
@@ -77,10 +76,23 @@
 		width: 75%;
 	}
 
-	.col-10 {
+	.col-12 {
+		width: 100%;
+	}
+
+
+
+	#header.col-10 {
 		width: 83.33%;
 		background-color: #33BEBE;
 	}
+
+	.col-10 {
+		width: 83.33%;
+		background-color: transparent;
+
+	}
+
 
 
 	span {
@@ -125,10 +137,6 @@
 		display: inline;
 	}
 
-	.col-10 {
-		width: 83.33%;
-		background-color: #33BEBE;
-	}
 
 }
 
