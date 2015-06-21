@@ -1,65 +1,119 @@
 
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/styles.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Rambla|Lato|Play|Orbitron' rel='stylesheet' type='text/css'>
- 	<title>FRONT END DEV</title>
-</head>
-<body>
-	<!--Flexible grid for rows and stacking images.-->
 
-	<div class="grid">
-		<header class="row">
-				<div class="col-2">
-					<div id="udacity" class = "logo" ><img src="img/udacity.png" alt="udacity logo">
+<html>
+
+	<head>
+
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="css/styles.css" rel="stylesheet">
+			<link href="http://fonts.googleapis.com/css?family=Rambla|Lato|Play|Orbitron"
+			 rel="stylesheet">
+		 	<title>FRONT END DEV</title>
+
+	</head>
+
+	<body>
+		<!--Flexible grid for rows and stacking images.-->
+			<div class="grid">
+
+					<header class="row">
+
+								<div class="col-2">
+
+										<div id="udacity" class ="logo" ><img src="img/udacity.png"
+											alt="udacity logo">
+										</div>
+
+								</div>
+
+								<div class ="brag" id="header">
+
+										<h2>MIGHTY PORTFOLIO</h2>
+										<h3>FRONT END CODE NINJA</h3>
+
+								</div>
+
+					</header>
+
+				<div class="row">
+
+						<div class="col-2" id="bruce_lee_quote">
+
+								<p>I fear not the man who has practiced 10,000 kicks once, but I
+									 fear the man who has practiced one kick 10,000 times.</p>
+								<p><a href=http://www.brainyquote.com/quotes/authors/b/bruce_lee.html#k6oreHSjzfgojucG.99,>Bruce Lee</a></p>
+
+						</div>
+
+						<div class="col-9">
+							<!--Responsive images served.-->
+								<picture>
+								     <source srcset="img/low_japanese_garden.jpg"
+										media="(min-width: 501px) and (max-width: 799px)"
+										id="medium_pic">
+											<img src="img/japanese_garden.jpg" alt="full_garden"
+											id="jumbo_pic">
+								</picture>
+								<p id="garden">GARDEN</p>
+
+						</div>
+
 					</div>
-				</div>
-				<div class = "brag" id="header">
-					<h2>MIGHTY PORTFOLIO</h2>
-					<h3>FRONT END CODE NINJA</h3>
-				</div>
-		</header>
-		<div class="row">
-			<div class="col-2" id="bruce_lee_quote">
-				<p>I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.</p>
-				<p><a href=http://www.brainyquote.com/quotes/authors/b/bruce_lee.html#k6oreHSjzfgojucG.99,>Bruce Lee</a></p>
+					<div class="row">
+
+							<div class="col-4">
+
+									<img src="img/lbj_library.png" alt="Dwayne at LBJ Library">
+									<p id="ninja">NINJA</p>
+
+							</div>
+
+							<div class="col-4">
+
+									<img src="img/austin_mural.png" alt="Austin Mexican
+									Museum Mural">
+									<p id="mural" >MURAL</p>
+
+							</div>
+
+							<div class="col-4">
+
+									<img id ="falls" src="img/multnomah_falls.png"
+									alt="Multnomah">
+									<p id="multnomah">MULTNOMAH FALLS</p>
+
+							</div>
+
+					</div>
+
+					<div>
+							<footer class="footer-phone">
+
+									<p>Phone view - images disabled due to bandwidth limits
+									 (Future feature: click to enable images)</p>
+
+							</footer>
+
+							<footer class="footer-tablet">
+
+									<p>Tablet view-</p>
+									<p>Images stack</p>
+									<p>Second highest quality garden photo.</p>
+
+							</footer>
+
+							<footer class="footer-year">
+
+									<p>Copyright 2015</p>
+
+							</footer>
+
+					</div>
+
 			</div>
-			<div class="col-9">
-				<!--Responsive images served.-->
-				<picture>
-				     <source srcset="img/low_japanese_garden.jpg"  media="(min-width: 501px) and (max-width: 799px)"  id="medium_pic">
-							<img src="img/japanese_garden.jpg" alt="full_garden" id="jumbo_pic">
-				</picture>
-				<p id="garden">GARDEN</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-4">
-				<img src="img/lbj_library.png" alt="Dwayne at LBJ Library">
-				<p id="ninja">NINJA</p>
-			</div>
-			<div class="col-4">
-				<img src="img/austin_mural.png" alt="Austin Mexican Museum Mural">
-				<p id="mural" >MURAL</p>
-			</div>
-			<div class="col-4">
-				<img id ="falls" src="img/multnomah_falls.png" alt="Multnomah">
-				<p id="multnomah">MULTNOMAH FALLS</p>
-			</div>
-		</div>
-		<div>
-			<footer class="footer-phone">
-					Phone view - images disabled due to bandwidth limits (Future feature: click to enable images)
-			</footer>
-			<footer class="footer-tablet">
-					<p>Tablet view-</p>
-					<p>Images stack</p>
-					<p>Second highest quality garden photo.</p>
-			</footer>
-		</div>
-	</div>
-</body>
+
+	</body>
+
 </html>

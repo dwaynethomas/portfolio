@@ -3,12 +3,12 @@
 
 
 	h2, h3, .col-4, .col-9, .col-12 {
-		font-family: 'Lato', sans-serif;
+		font-family: "Lato", sans-serif;
 		padding-right: 10px;
 	}
 
 	h1 {
-		color: white;
+		color: #FFFFFF;
 		background: #33BEBE;
 	}
 
