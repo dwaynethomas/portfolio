@@ -3,8 +3,8 @@
 
 
 	h2, h3, .col-4, .col-9, .col-12 {
-	font-family: 'Lato', sans-serif;
-	padding-right: 10px;
+		font-family: 'Lato', sans-serif;
+		padding-right: 10px;
 	}
 
 	h1 {
@@ -21,7 +21,7 @@
 		max-width: 100%;
 	}
 
-	#header {
+	header {
 		text-align: right;
 	}
 
@@ -82,18 +82,10 @@
 
 
 
-	#header.col-10 {
+	.brag {
 		width: 83.33%;
 		background-color: #33BEBE;
 	}
-
-	.col-10 {
-		width: 83.33%;
-		background-color: transparent;
-
-	}
-
-
 
 	span {
 	  width:100%;
@@ -115,6 +107,7 @@
 		max-width: 100%;
 	}
 
+	/* desktop styles */
 @media  screen and (min-width: 800px)
 {
 
@@ -130,6 +123,9 @@
 	}
 }
 
+/* Tablet styles *
+* Images stack
+* Second highest quality garden photo.*/
 @media  screen and (min-width: 501px) and (max-width: 799px)
 {
 
@@ -139,6 +135,11 @@
 
 
 }
+
+/* Phone styles
+* Images stack
+* Phone view - images disabled due to bandwidth limits (Future feature: click to enable images)
+*/
 
 @media  screen and (max-width: 500px)
 {
@@ -153,9 +154,6 @@
 	#garden, #ninja, #mural, #multnomah {
 		display: none;
 	}
-
-
-
 
 
 	.footer-phone {

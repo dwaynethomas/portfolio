@@ -9,13 +9,15 @@
  	<title>FRONT END DEV</title>
 </head>
 <body>
+	<!--Flexible grid for rows and stacking images.-->
+
 	<div class="grid">
 		<header class="row">
 				<div class="col-2">
 					<div id="udacity" class = "logo" ><img src="img/udacity.png" alt="udacity logo">
 					</div>
 				</div>
-				<div class="col-10" id="header">
+				<div class = "brag" id="header">
 					<h2>MIGHTY PORTFOLIO</h2>
 					<h3>FRONT END CODE NINJA</h3>
 				</div>
@@ -26,16 +28,15 @@
 				<p><a href=http://www.brainyquote.com/quotes/authors/b/bruce_lee.html#k6oreHSjzfgojucG.99,>Bruce Lee</a></p>
 			</div>
 			<div class="col-9">
+				<!--Responsive images served.-->
 				<picture>
-				     <source srcset="img/low_japanese_garden.jpg" media="(min-width: 501px) and (max-width: 799px)" alt="garden" id="medium_pic">
-							<source srcset="" media="(max-width: 500px)" alt="garden" id="no_pic">
-							<img src="img/japanese_garden.jpg" alt="garden" id="jumbo_pic">
+				     <source srcset="img/low_japanese_garden.jpg"  media="(min-width: 501px) and (max-width: 799px)"  id="medium_pic">
+							<img src="img/japanese_garden.jpg" alt="full_garden" id="jumbo_pic">
 				</picture>
 				<p id="garden">GARDEN</p>
 			</div>
 		</div>
 		<div class="row">
-
 			<div class="col-4">
 				<img src="img/lbj_library.png" alt="Dwayne at LBJ Library">
 				<p id="ninja">NINJA</p>
@@ -49,17 +50,16 @@
 				<p id="multnomah">MULTNOMAH FALLS</p>
 			</div>
 		</div>
-
-		<footer class="footer-phone">
-				Phone view - images disabled due to bandwidth limits (Future feature: click to enable images)
-		</footer>
-		<footer class="footer-tablet">
-				<p>Tablet view-</p>
-				<p>Images stack</p>
-				<p>Second highest quality garden photo.</p>
-		</footer>
+		<div>
+			<footer class="footer-phone">
+					Phone view - images disabled due to bandwidth limits (Future feature: click to enable images)
+			</footer>
+			<footer class="footer-tablet">
+					<p>Tablet view-</p>
+					<p>Images stack</p>
+					<p>Second highest quality garden photo.</p>
+			</footer>
+		</div>
 	</div>
-
 </body>
-
 </html>
